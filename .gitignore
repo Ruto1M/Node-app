@@ -1,0 +1,15 @@
+node_modules/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+# Logs
+logs/
+# Dependency directories
+bower_components/
+# Build directories
+dist/
+# Coverage directory used by tools like istanbul
+coverage/
+# Temporary files
+tmp/    
