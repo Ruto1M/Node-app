@@ -12,7 +12,7 @@ phases:
       - echo Logging in to Amazon ECR...
       - aws --version
       - $(aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin <your-account-id>.dkr.ecr.$AWS_REGION.amazonaws.com)
-      - REPOSITORY_URI=<your-account-id>.dkr.ecr.$AWS_REGION.amazonaws.com/my-node-app-repo
+      - REPOSITORY_URI=639266140742.dkr.ecr.$AWS_REGION.amazonaws.com/my-node-app-repo
       - IMAGE=$REPOSITORY_URI:$IMAGE_TAG
       - echo Installing dependencies...
       - npm install
